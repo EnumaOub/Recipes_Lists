@@ -26,9 +26,7 @@ main {
   background-size: cover;
 }
 
-a:link {
-  color: rgb(0, 0, 0);
-}
+
 
 .item p {
   display: inline-block;
@@ -68,11 +66,12 @@ h1, .list_recipes {
 }
 
 .meals, .desserts {
-  border: double #32a1ce;
+  border: solid #32a1ce;
   border-width: thin;
   width: 400px;
   background-color: rgb(255, 255, 255);
   box-shadow: 5px 5px 5px rgb(255, 255, 255);
+  border-radius: 9px;
 }
 
 .link {
