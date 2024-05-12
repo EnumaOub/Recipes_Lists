@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: cursive;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 0;
+  background: white;
+  font-weight: 100;
+  background: rgba(0, 255, 255, 0.8);
+  box-shadow: 0px 0px 5px rgb(0, 255, 255);
+}
+
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  color: rgb(48, 122, 134);
+}
+
+hr {
+  border: none;
+  border-top: 3px double rgb(104, 211, 243);
+  color: rgb(104, 211, 243);
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 400px;
+  margin: auto;
+}
+
+li::marker {
+  color: rgb(0, 132, 133);
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  min-width: 1024px;
+  top: 0;
+  left: 0;
+  background-image: url("/theodinproject (Tuto)/recipes/media/cooking_bg.png");
+  background-size: cover;
+  color: rgb(66, 66, 66);
+}
+
+a:link {
+  color: rgb(66, 66, 66);
+}
+
+a:visited {
+  color: rgb(66, 66, 66);
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.recipe {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px rgb(255, 255, 255);
+  border: double #32a1ce;
+  border-width: thin;
+}
+
+/* .info {
+  background-color: rgb(245, 148, 148);
+  box-shadow: -5px 5px 20px rgb(245, 148, 148);
+}
+
+.ingredients {
+  background-color: rgb(23, 209, 178);
+  box-shadow: 0px 5px 20px rgb(23, 209, 178);
+}
+
+.instructions {
+  background-color: rgb(236, 213, 250);
+  box-shadow: 5px 5px 20px rgb(236, 213, 250);
+} */
+
+.ex-img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #666666;
+}
+
+
+
+.title {
+  padding: 8px;
+}
+
+h1, .recipe, table {
+  max-width: 800px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+ul, ol {
+  display: table;
+  margin: 0 auto;
+}
+
+.home {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 5%;
+  height: 5%;
+}

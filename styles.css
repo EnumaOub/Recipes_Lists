@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: cursive;
+}
+
+
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+hr {
+  height: 2px;
+  background-color: rgb(255, 0, 0);
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/theodinproject (Tuto)/recipes/media/cooking_bg.png");
+  background-size: cover;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  align-items:center;
+}
+
+.title {
+  font-size: 24px;
+  background: white;
+  font-weight: 100;
+  background: rgba(0, 255, 255, 0.9);
+  box-shadow: 0px 0px 5px rgb(0, 255, 255);
+  padding: 8px;
+  max-width: 800px;
+  width: 80%;
+  margin: auto;
+}
+
+h1, .list_recipes {
+  max-width: 800px;
+  width: 80%;
+  margin: auto;
+}
+
+.list_recipes {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+
+.name-meals {
+  text-align: left;
+  width: 75%;
+}
+
+.meals, .desserts {
+  border: double #32a1ce;
+  border-width: thin;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+
+.link {
+  text-align: right;
+  width: 25%;
+  display: block;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
