@@ -2,9 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   font-family: cursive;
+  /* outline: solid red; */
 }
-
-
 
 h1, h2 {
   text-align: center;
@@ -14,10 +13,6 @@ h2 {
   font-size: 35px;
 }
 
-hr {
-  height: 2px;
-  background-color: rgb(255, 0, 0);
-}
 
 main {
   width: 100vw;
@@ -42,13 +37,10 @@ main {
   background: rgba(0, 255, 255, 0.9);
   box-shadow: 0px 0px 5px rgb(0, 255, 255);
   padding: 8px;
-  max-width: 800px;
-  width: 80%;
-  margin: auto;
 }
 
-h1, .list_recipes {
-  max-width: 800px;
+h1, .list_recipes, .title {
+  max-width: 1000px;
   width: 80%;
   margin: auto;
 }
@@ -59,10 +51,23 @@ h1, .list_recipes {
   margin-top: 8px;
 }
 
+.card {
+  background-color: rgb(255, 228, 196);
+  border-radius: 12;
+  width: 300px;
+  margin: 16px auto 16px auto;
+  border-style: dashed;
+  border-width: thin;
+  border-color: #666666;
+  display: flex;
+}
 
 .name-meals {
   text-align: left;
   width: 75%;
+  color: red;
+  margin: auto;
+  font-weight: bolder;
 }
 
 .meals, .desserts {
@@ -76,7 +81,7 @@ h1, .list_recipes {
 
 .link {
   text-align: right;
-  width: 25%;
+  width: 20%;
   display: block;
 }
 
@@ -86,4 +91,27 @@ h1, .list_recipes {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.ex-img {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  margin: 8px auto 8px auto;
+}
+
+.title_card {
+  margin: auto;
+  flex: 1 1 100%
+}
+
+.title_card hr {
+  border: 0;
+    border-bottom: 1px dashed;
+    color: red;
+}
+
+.comp_card {
+  height: 0;
+  margin: auto;
 }

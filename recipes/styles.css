@@ -64,8 +64,8 @@ table {
 }
 
 .recipe {
-  background-color: rgb(255, 255, 255);
-  box-shadow: 5px 5px 5px rgb(255, 255, 255);
+  background-color: rgb(255, 228, 196);
+  box-shadow: 5px 5px 5px rgb(255, 228, 196);
   border: solid #32a1ce;
   border-width: thin;
   border-radius: 9px;
