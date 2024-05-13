@@ -53,8 +53,8 @@ h1, .list_recipes, .title {
 
 .card {
   background-color: rgb(255, 228, 196);
-  border-radius: 12;
-  width: 300px;
+  border-radius: 20px;
+  width: 400px;
   margin: 16px auto 16px auto;
   border-style: dashed;
   border-width: thin;
@@ -63,17 +63,17 @@ h1, .list_recipes, .title {
 }
 
 .name-meals {
-  text-align: left;
-  width: 75%;
+  width: 50%;
   color: red;
   margin: auto;
   font-weight: bolder;
+  text-align: center;
 }
 
 .meals, .desserts {
   border: solid #32a1ce;
   border-width: thin;
-  width: 400px;
+  width: 500px;
   background-color: rgb(255, 255, 255);
   box-shadow: 5px 5px 5px rgb(255, 255, 255);
   border-radius: 9px;
@@ -83,6 +83,14 @@ h1, .list_recipes, .title {
   text-align: right;
   width: 20%;
   display: block;
+}
+
+.link-ext {
+  padding: 5px 5px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
 }
 
 .icon {
@@ -95,23 +103,32 @@ h1, .list_recipes, .title {
 
 .ex-img {
   object-fit: cover;
-  width: 100px;
-  height: 100px;
-  margin: 8px auto 8px auto;
+  width: 75px;
+  height: 75px;
+  margin: 12px auto 8px auto;
+  border-radius: 20px;
 }
 
 .title_card {
-  margin: auto;
-  flex: 1 1 100%
+  flex: 1 1 100%;
 }
 
 .title_card hr {
   border: 0;
-    border-bottom: 1px dashed;
-    color: red;
+  border-bottom: 1px dashed;
+  color: red;
+  width: 250px;
+  margin: auto 5px auto 25px;
 }
 
 .comp_card {
-  height: 0;
-  margin: auto;
+  margin: 0;
+}
+
+.card-text {
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
 }
