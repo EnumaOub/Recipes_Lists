@@ -13,6 +13,10 @@ h2 {
   font-size: 35px;
 }
 
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 
 main {
   width: 100vw;
@@ -51,6 +55,16 @@ h1, .list_recipes, .title {
   margin-top: 8px;
 }
 
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Card */
+
 .card {
   background-color: rgb(255, 228, 196);
   border-radius: 20px;
@@ -66,8 +80,9 @@ h1, .list_recipes, .title {
   width: 50%;
   color: red;
   margin: auto;
-  font-weight: bolder;
+  font-weight: 900;
   text-align: center;
+  font-size: larger;
 }
 
 .meals, .desserts {
@@ -85,44 +100,53 @@ h1, .list_recipes, .title {
   display: block;
 }
 
-.link-ext {
-  padding: 5px 5px;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-}
-
-.icon {
-  width: 30px;
-  height: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
 
 .ex-img {
   object-fit: cover;
-  width: 75px;
-  height: 75px;
-  margin: 12px auto 8px auto;
-  border-radius: 20px;
+  width: 90px;
+  height: 90px;
+  margin: 12px;
+  border: 1px solid #ff0000;
+  outline: 1px solid orangered;
+  outline-offset: -3px;
+  padding: 4px;
 }
 
 .title_card {
   flex: 1 1 100%;
+  font-size: 22px;
 }
 
 .title_card hr {
   border: 0;
-  border-bottom: 1px dashed;
+  border-bottom: 1px solid;
   color: red;
-  width: 250px;
-  margin: auto 5px auto 25px;
+  width: 50%;
+  opacity: .5;
+  margin: auto;
 }
 
 .comp_card {
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
   margin: 0;
+  color: rgb(255, 120, 0);
+  font-weight: 200;
+  font-size: small;
+}
+
+.main_sub {
+  font-weight: 900;
+}
+
+.comp_card hr {
+  height: 30px;
+  border: 0;
+  border-right: 3px double #cf0f0f;
 }
 
 .card-text {
@@ -131,4 +155,5 @@ h1, .list_recipes, .title {
   object-fit: cover;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }

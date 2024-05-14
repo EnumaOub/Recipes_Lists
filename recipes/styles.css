@@ -11,6 +11,7 @@ h1 {
   font-weight: 100;
   background: rgba(0, 255, 255, 0.8);
   box-shadow: 0px 0px 5px rgb(0, 255, 255);
+  width: 80%
 }
 
 
@@ -41,13 +42,15 @@ li::marker {
 main {
   width: 100%;
   height: 100%;
-  min-height: 100%;
+  height: 100vh;
   min-width: 1024px;
   top: 0;
   left: 0;
   background-image: url("/theodinproject (Tuto)/recipes/media/cooking_bg.png");
   background-size: cover;
   color: rgb(66, 66, 66);
+  border-image-repeat: stretch;
+  overflow: scroll;
 }
 
 a:link {
@@ -59,7 +62,7 @@ a:visited {
 }
 
 table {
-  width: 50%;
+  width: 30%;
   border-collapse: collapse;
 }
 
@@ -69,22 +72,11 @@ table {
   border: solid #32a1ce;
   border-width: thin;
   border-radius: 9px;
+  max-width: 800px;
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
 }
-
-/* .info {
-  background-color: rgb(245, 148, 148);
-  box-shadow: -5px 5px 20px rgb(245, 148, 148);
-}
-
-.ingredients {
-  background-color: rgb(23, 209, 178);
-  box-shadow: 0px 5px 20px rgb(23, 209, 178);
-}
-
-.instructions {
-  background-color: rgb(236, 213, 250);
-  box-shadow: 5px 5px 20px rgb(236, 213, 250);
-} */
 
 .ex-img {
   object-fit: cover;
@@ -104,9 +96,8 @@ table {
   padding: 8px;
 }
 
-h1, .recipe, table {
+h1, table {
   max-width: 800px;
-  width: 80%;
   margin: auto;
   text-align: center;
 }
@@ -114,6 +105,11 @@ h1, .recipe, table {
 ul, ol {
   display: table;
   margin: 0 auto;
+  max-width: fit-content;
+}
+
+ol {
+  width: 50%;
 }
 
 .home {
