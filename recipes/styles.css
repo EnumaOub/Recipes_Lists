@@ -46,7 +46,7 @@ main {
   min-width: 1024px;
   top: 0;
   left: 0;
-  background-image: url("media/cooking_bg.png");
+  background-image: url("../media/cooking_bg.png");
   background-size: cover;
   color: rgb(66, 66, 66);
   border-image-repeat: stretch;
