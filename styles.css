@@ -151,9 +151,14 @@ h1, .list_recipes, .title {
 
 .card-text {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   object-fit: cover;
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+.citation .content {
+  flex-grow: 100%;
 }
