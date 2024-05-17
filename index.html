@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles.css" />
+  <script src="ChangeLanguage.js"></script>
   <title>My List Of Recipes</title>
 </head>
 
 <body>
   <main>
     <div class="title">
-      <h1>LIST OF RECIPES</h1>
+      <h1>LIST DE RECETTES</h1>
+      <button id="lg-bt" onclick="ChangeLanguage()">Click Here For English Links</button>
     </div>
     <div class="list_recipes">
       <div class="desserts">
         <h2>Desserts</h2>
         <img src="media/icon_dessert.png" alt="Dessert" class="icon">
-        <a href="recipes/raspberry_cake.html" class="link-ext">
+        <a href="recipes/fr/raspberry_cake.html" class="link-ext">
           <div class="card">
             <img src="media/raspberry_res.jpg" alt="The Cheesecake" class="ex-img">
             <div class="card-text">
@@ -46,7 +48,7 @@
             </div>
           </div>
         </a>
-        <a href="recipes/chocolate_banana_bread.html" class="link-ext">
+        <a href="recipes/fr/chocolate_banana_bread.html" class="link-ext">
           <div class="card">
             <img src="media/Chocolate_banana_bread_res.jpg" alt="Chocolate Banana Bread"
               class="ex-img">
@@ -76,11 +78,41 @@
             </div>
           </div>
         </a>
+        <a href="recipes/fr/black_bean_brownie.html" class="link-ext">
+          <div class="card">
+            <img src="" alt="Black Bean Brownie"
+              class="ex-img">
+            <div class="card-text">
+              <div class="title_card">
+                <hr />
+                <p class="name-meals">Black Bean Brownie</p>
+                <hr />
+              </div>
+
+              <div class="comp_card">
+                <div class="time">
+                  <p class="main_sub">Time: </p>
+                  <p>1h</p>
+                </div>
+                <hr>
+                <div class="time">
+                  <p class="main_sub">Calories: </p>
+                  <p>115 kc </p>
+                </div>
+                <hr>
+                <div class="time">
+                  <p class="main_sub">Portions: </p>
+                  <p>10</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
       </div>
       <div class="meals">
-        <h2>Meals</h2>
+        <h2>Plâts Chaud</h2>
         <img src="media/icon_chili.png" alt="Chili" class="icon">
-        <a href="recipes/Chili_vegetarian.html" class="link-ext">
+        <a href="recipes/fr/Chili_vegetarian.html" class="link-ext">
           <div class="card">
             <img src="media/Chili_res.jpg" alt="The Chili Vege" class="ex-img">
             <div class="card-text">
