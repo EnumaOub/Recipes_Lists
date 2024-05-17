@@ -35,7 +35,7 @@ function ChangeTitles(lang) {
         meal.textContent = "Hot Meals"
     }
     else if (lang == "en") {
-        title.textContent = "Liste de recettes"
+        title.textContent = "Liste de Recettes"
         meal.textContent = "Plâts Chaud"
     }
 }

@@ -105,7 +105,6 @@ h1, table {
 ul, ol {
   display: table;
   margin: 0 auto;
-  max-width: fit-content;
 }
 
 ol {
@@ -135,14 +134,9 @@ ol {
   }
   
   hr {
-    border: none;
-    border-top: 3px double rgb(104, 211, 243);
-    color: rgb(104, 211, 243);
-    overflow: visible;
-    text-align: center;
-    height: 5px;
-    width: 400px;
-    margin: auto;
+    height: 3px;
+    max-width: 400px;
+    width: 80%;
   }
   
   main {
@@ -191,7 +185,6 @@ ol {
   ul, ol {
     display: table;
     margin: 0 auto;
-    max-width: fit-content;
   }
   
   ol {
